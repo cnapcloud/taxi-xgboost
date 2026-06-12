@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Type checking / linting caches
+.mypy_cache/
+.ruff_cache/
+.dmypy.json
+
+# Testing
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Dagster
+$DAGSTER_HOME/
+dagster_home/
+.dagster/
+
+# Settings with secrets (use settings.example.yaml as template)
+settings.yaml
+
+# Data / uploads
+data/
+
+# IDE
+.vscode/
+.idea/
+
+# macOS
+.DS_Store
+
+# Docker
+*.env
+.env*
+
+# Logs
+*.log
+
+# Trianing result
+artifacts/

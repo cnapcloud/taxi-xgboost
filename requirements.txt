@@ -1,0 +1,9 @@
+ray[client,data,train]==2.55.1
+xgboost==3.2.0
+xgboost-ray
+mlflow
+pyarrow
+pandas
+scikit-learn
+seaborn
+numpy<2.0

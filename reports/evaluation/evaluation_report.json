@@ -1,0 +1,66 @@
+{
+  "models": [
+    {
+      "target": "fare_amount",
+      "challenger_version": "2",
+      "unit": "$",
+      "challenger_metrics": {
+        "rmse": 4.3115,
+        "mae": 1.9356,
+        "r2": 0.9354,
+        "mape_pct": 17.6,
+        "p90_abs_error": 3.7034,
+        "unit": "$"
+      },
+      "champion_metrics": {
+        "rmse": 4.3202,
+        "mae": 1.9405,
+        "r2": 0.9352,
+        "mape_pct": 17.67,
+        "p90_abs_error": 3.7156,
+        "unit": "$"
+      },
+      "comparison": {
+        "champion_rmse": 4.3202,
+        "challenger_rmse": 4.3115,
+        "improvement_pct": 0.201,
+        "threshold_pct": 0.0,
+        "promote_challenger": true,
+        "decision": "PROMOTE"
+      }
+    },
+    {
+      "target": "trip_duration_min",
+      "challenger_version": "2",
+      "unit": "min",
+      "challenger_metrics": {
+        "rmse": 5.1703,
+        "mae": 3.0874,
+        "r2": 0.8104,
+        "mape_pct": 29.34,
+        "p90_abs_error": 6.7147,
+        "unit": "min"
+      },
+      "champion_metrics": {
+        "rmse": 5.1627,
+        "mae": 3.0835,
+        "r2": 0.811,
+        "mape_pct": 29.38,
+        "p90_abs_error": 6.7014,
+        "unit": "min"
+      },
+      "comparison": {
+        "champion_rmse": 5.1627,
+        "challenger_rmse": 5.1703,
+        "improvement_pct": -0.147,
+        "threshold_pct": 0.0,
+        "promote_challenger": false,
+        "decision": "KEEP_CHAMPION"
+      }
+    }
+  ],
+  "rejected_targets": [
+    "trip_duration_min"
+  ],
+  "overall_promote": false
+}

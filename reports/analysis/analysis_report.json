@@ -1,0 +1,177 @@
+{
+  "total_records": 2721529,
+  "date_range": {
+    "start": "2002-12-31 22:59:39",
+    "end": "2024-02-01 00:01:15"
+  },
+  "descriptive_statistics": {
+    "fare_amount": {
+      "count": 2721529.0,
+      "mean": 18.403,
+      "std": 16.9688,
+      "min": 0.01,
+      "25%": 8.6,
+      "50%": 12.8,
+      "75%": 19.8,
+      "max": 299.8
+    },
+    "trip_distance": {
+      "count": 2721529.0,
+      "mean": 3.2845,
+      "std": 4.3841,
+      "min": 0.01,
+      "25%": 1.01,
+      "50%": 1.7,
+      "75%": 3.12,
+      "max": 93.2
+    },
+    "trip_duration_min": {
+      "count": 2721529.0,
+      "mean": 14.9158,
+      "std": 11.8743,
+      "min": 0.0167,
+      "25%": 7.2,
+      "50%": 11.6167,
+      "75%": 18.65,
+      "max": 179.0667
+    },
+    "passenger_count": {
+      "count": 2721529.0,
+      "mean": 1.3543,
+      "std": 0.8437,
+      "min": 1.0,
+      "25%": 1.0,
+      "50%": 1.0,
+      "75%": 1.0,
+      "max": 6.0
+    }
+  },
+  "hourly_pattern": {
+    "0": {
+      "mean_fare": 19.65,
+      "trip_count": 69098
+    },
+    "1": {
+      "mean_fare": 17.32,
+      "trip_count": 45319
+    },
+    "2": {
+      "mean_fare": 16.33,
+      "trip_count": 31893
+    },
+    "3": {
+      "mean_fare": 17.87,
+      "trip_count": 20524
+    },
+    "4": {
+      "mean_fare": 22.94,
+      "trip_count": 12759
+    },
+    "5": {
+      "mean_fare": 27.51,
+      "trip_count": 15617
+    },
+    "6": {
+      "mean_fare": 21.97,
+      "trip_count": 35560
+    },
+    "7": {
+      "mean_fare": 18.49,
+      "trip_count": 74256
+    },
+    "8": {
+      "mean_fare": 17.55,
+      "trip_count": 105054
+    },
+    "9": {
+      "mean_fare": 17.84,
+      "trip_count": 119308
+    },
+    "10": {
+      "mean_fare": 17.99,
+      "trip_count": 129938
+    },
+    "11": {
+      "mean_fare": 17.56,
+      "trip_count": 141151
+    },
+    "12": {
+      "mean_fare": 17.75,
+      "trip_count": 153509
+    },
+    "13": {
+      "mean_fare": 18.34,
+      "trip_count": 158924
+    },
+    "14": {
+      "mean_fare": 19.21,
+      "trip_count": 171106
+    },
+    "15": {
+      "mean_fare": 19.02,
+      "trip_count": 176792
+    },
+    "16": {
+      "mean_fare": 19.4,
+      "trip_count": 178253
+    },
+    "17": {
+      "mean_fare": 18.03,
+      "trip_count": 191096
+    },
+    "18": {
+      "mean_fare": 16.93,
+      "trip_count": 195780
+    },
+    "19": {
+      "mean_fare": 17.6,
+      "trip_count": 170455
+    },
+    "20": {
+      "mean_fare": 18.05,
+      "trip_count": 149155
+    },
+    "21": {
+      "mean_fare": 18.31,
+      "trip_count": 148279
+    },
+    "22": {
+      "mean_fare": 19.14,
+      "trip_count": 130441
+    },
+    "23": {
+      "mean_fare": 20.33,
+      "trip_count": 97262
+    }
+  },
+  "day_of_week_pattern": {
+    "Mon": {
+      "mean_fare": 19.59,
+      "trip_count": 372073
+    },
+    "Tue": {
+      "mean_fare": 18.54,
+      "trip_count": 425574
+    },
+    "Wed": {
+      "mean_fare": 18.35,
+      "trip_count": 458438
+    },
+    "Thu": {
+      "mean_fare": 18.52,
+      "trip_count": 397178
+    },
+    "Fri": {
+      "mean_fare": 18.1,
+      "trip_count": 378272
+    },
+    "Sat": {
+      "mean_fare": 17.14,
+      "trip_count": 383888
+    },
+    "Sun": {
+      "mean_fare": 18.66,
+      "trip_count": 306106
+    }
+  }
+}

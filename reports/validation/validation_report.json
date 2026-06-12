@@ -1,0 +1,83 @@
+{
+  "timestamp": "2026-05-28T14:17:06.294327+00:00",
+  "total_rows": 2964624,
+  "total_checks": 12,
+  "passed": 8,
+  "critical_failures": 4,
+  "warning_failures": 0,
+  "overall_success": false,
+  "results": [
+    {
+      "expectation": "required_columns_exist",
+      "severity": "critical",
+      "passed": true,
+      "detail": "One or more required columns are missing"
+    },
+    {
+      "expectation": "fare_amount_not_null",
+      "severity": "critical",
+      "passed": true,
+      "detail": "null_rate=0.0000 (max_allowed=0.01)"
+    },
+    {
+      "expectation": "fare_amount_positive",
+      "severity": "critical",
+      "passed": false,
+      "detail": "out_of_range=38387 rows (1.29%)"
+    },
+    {
+      "expectation": "total_amount_gte_fare",
+      "severity": "warning",
+      "passed": true,
+      "detail": "total_amount < fare_amount: 35339 rows"
+    },
+    {
+      "expectation": "trip_distance_not_null",
+      "severity": "critical",
+      "passed": true,
+      "detail": "null_rate=0.0000 (max_allowed=0.01)"
+    },
+    {
+      "expectation": "trip_distance_range",
+      "severity": "critical",
+      "passed": false,
+      "detail": "out_of_range=31 rows (0.00%)"
+    },
+    {
+      "expectation": "passenger_count_range",
+      "severity": "critical",
+      "passed": false,
+      "detail": "out_of_range=31525 rows (1.06%)"
+    },
+    {
+      "expectation": "pickup_datetime_not_null",
+      "severity": "critical",
+      "passed": true,
+      "detail": "null_rate=0.0000 (max_allowed=0.001)"
+    },
+    {
+      "expectation": "no_future_pickup_dates",
+      "severity": "critical",
+      "passed": true,
+      "detail": "future_dates=0 rows"
+    },
+    {
+      "expectation": "pickup_before_dropoff",
+      "severity": "critical",
+      "passed": false,
+      "detail": "pickup>=dropoff: 870 rows"
+    },
+    {
+      "expectation": "location_id_range",
+      "severity": "warning",
+      "passed": true,
+      "detail": "Location IDs contain values outside [1, 265]"
+    },
+    {
+      "expectation": "minimum_row_count",
+      "severity": "critical",
+      "passed": true,
+      "detail": "Only 2964624 rows (minimum 1000 required)"
+    }
+  ]
+}
