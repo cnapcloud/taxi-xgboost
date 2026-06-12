@@ -491,7 +491,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="NYC Taxi – Step 3: Train")
     parser.add_argument("--input",        default="data/raw/",              help="Parquet 파일 또는 디렉토리")
     parser.add_argument("--local",        action="store_true",              help="로컬 실행 (Ray 없음)")
-    parser.add_argument("--ray-address",  default=None,                     help="Ray 클러스터 주소")
+    parser.add_argument("--ray-address",  default='auto',                   help="Ray 클러스터 주소")
     parser.add_argument("--num-workers",  type=int,  default=1,             help="Ray 워커 수")
     parser.add_argument("--n-estimators", type=int,  default=300,           help="XGBoost n_estimators")
     parser.add_argument("--mlflow-uri",   default="http://mlflow.cnapcloud.com", help="MLflow Tracking URI")

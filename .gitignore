@@ -34,9 +34,6 @@ dagster_home/
 # Settings with secrets (use settings.example.yaml as template)
 settings.yaml
 
-# Data / uploads
-data/
-
 # IDE
 .vscode/
 .idea/
